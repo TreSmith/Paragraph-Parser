@@ -34,7 +34,7 @@
                 //find the right index that corresponds to the left index
                 right = item.Length - 1 - left;
                 //Check if the right and left character are equal
-                //if they aren't break out of this loop and check next sentence
+                //if they aren't break out of this loop and check next item
                 if (item[left] != item[right])
                     break;
                 //checks if we reached the middle first before counting up
@@ -63,10 +63,12 @@
 
     static void allWordsContaining(string[] words) 
     {
-        //Pass in word list, enter a character, and outputs the words containing that letter
+        //Pass in word list, enter a letter, and outputs the words containing that letter
+        Console.Write("Enter a character: ");
         char let;
-        //Checking if character is valid to search
-        if ((let = Char.ToLower(Convert.ToChar(Console.Read()))) != '\r')
+
+        //Checking if character is valid to search and setting letter variable to that character entered
+        if (Char.IsLetter(let = Char.ToLower(Convert.ToChar(Console.Read()))))
         {
             Console.WriteLine($"Checking if {let} is in any word...");
             foreach (string word in words)
@@ -79,6 +81,11 @@
                 }
             }
             Console.Write("\n");
+        }
+        else
+        {
+            //If user doesn't enter a letter print out statment informing them
+            Console.WriteLine("Invalid Character; please enter a letter");
         }
     }
     #endregion
@@ -120,7 +127,6 @@
         uniqueWordFinder(words);
 
         //Input a letter and list all words containing the letter. (case insensitive)
-        Console.Write("Enter a character: ");
         allWordsContaining(words);
 
         return 0;
