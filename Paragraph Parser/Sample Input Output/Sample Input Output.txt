@@ -1,0 +1,57 @@
+Input:
+==========================
+This is a sample paragraph. This is meant to check out some of the cool functions I have been creating!
+Dad. Ddadd dadd wow this is so cool coollooc 
+Check it out!
+The wise men were jumping the hurdles to obtain the prize.
+JumppmuJ.
+DAD.
+Dad Bad Had daH daB daD.
+==========================
+Output:
+==========================
+Word Palindromes: 4
+Sentence Palindromes: 3
+Unique Words:
+
+this : 3
+is : 3
+a : 1
+sample : 1
+paragraph : 1
+meant : 1
+to : 2
+check : 2
+out : 2
+some : 1
+of : 1
+the : 4
+cool : 2
+functions : 1
+i : 1
+have : 1
+been : 1
+creating : 1
+dad : 4
+ddadd : 1
+dadd : 1
+wow : 1
+so : 1
+coollooc : 1
+it : 1
+wise : 1
+men : 1
+were : 1
+jumping : 1
+hurdles : 1
+obtain : 1
+prize : 1
+jumppmuj : 1
+bad : 1
+had : 1
+dah : 1
+dab : 1
+Enter a character: h
+Checking if h is in any word...
+This paragraph This check the have this Check The the hurdles the
+==========================

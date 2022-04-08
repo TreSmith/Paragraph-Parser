@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Paragraph Parser": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\Tree Smothy\\OneDrive\\Personal Projects\\Console Applications\\Palindrome\\Paragraph1.txt\""
+    }
+  }
+}
