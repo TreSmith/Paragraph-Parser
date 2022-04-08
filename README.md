@@ -11,7 +11,7 @@ This is a program that takes in a paragraph from a file and does the following t
 
 This program first takes in a file from the command line. Then with that file it reads it and puts it into a string. 
 Two functions are called to break that string into words and sentences. This is done using the string split function.
-Those word and sentence lists are passed into the palindrome method which takes each word/sentence and checks each character starting on the first and last character to check if they are equal and incrementing towards the middle.
+Those word and sentence lists are passed into the palindrome method which takes each word/sentence and checks each character starting on the first and last character to check if they are equal and incrementing towards the middle if it reaches the middle it will count up.
 The unique words and count are then found by passing in the word list and grouping the words. The key is the word and the count is the amount of times it appears.
 Then the user enters a letter and the words containing that letter are printed out.
 
